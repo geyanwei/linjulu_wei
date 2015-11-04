@@ -26,6 +26,8 @@
     
     
         self.title = @"首页";    self.title = @"首页";    self.title = @"首页";    self.title = @"首页";    self.title = @"首页";    self.title = @"首页";    self.title = @"首页";
+    
+    NSLog(@"看看");
 
     self.MainTableView = [[MainTableViewController alloc]init];
     [self rn_addChildViewController:self.MainTableView];
